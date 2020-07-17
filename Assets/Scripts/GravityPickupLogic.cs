@@ -6,11 +6,11 @@ public class GravityPickupLogic : MonoBehaviour
 {
     public LayerMask playerLayer;
     public float radius;
-    public PlayerRigidBody play;
+    private PlayerRigidBody play;
     // Start is called before the first frame update
     void Start()
     {
-        
+        play = GameObject.FindGameObjectWithTag("Player Origin").GetComponentInChildren<PlayerRigidBody>();
     }
 
     // Update is called once per frame

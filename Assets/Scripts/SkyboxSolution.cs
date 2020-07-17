@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class SkyboxSolution : MonoBehaviour
 {
-    public Transform world;
+    private Transform world;
     // Start is called before the first frame update
     void Start()
     {
-        
+        world = GameObject.FindGameObjectWithTag("Universe").transform;
     }
 
     // Update is called once per frame

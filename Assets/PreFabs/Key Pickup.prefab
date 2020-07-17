@@ -298,6 +298,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   radius: 0.2
-  play: {fileID: 0}
+  speed: 90

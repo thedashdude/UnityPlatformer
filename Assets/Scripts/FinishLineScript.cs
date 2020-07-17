@@ -5,14 +5,14 @@ using UnityEngine;
 public class FinishLineScript : MonoBehaviour
 {
     public int keys;
-    public PlayerRigidBody playerScript;
+    private PlayerRigidBody playerScript;
     public GameObject warp7;
-    public float radius;
     private bool activated;
 
     // Start is called before the first frame update
     void Start()
     {
+        playerScript = GameObject.FindGameObjectWithTag("Player Origin").GetComponentInChildren<PlayerRigidBody>();
         activated = false;
         warp7.SetActive(false);
     }

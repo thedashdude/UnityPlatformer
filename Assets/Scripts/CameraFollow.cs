@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform folCam;
+    private Transform folCam;
     // Start is called before the first frame update
     void Start()
     {
-        
+        folCam = GameObject.FindGameObjectWithTag("Player Origin").GetComponentInChildren<Camera>().transform;
     }
 
     // Update is called once per frame

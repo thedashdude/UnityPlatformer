@@ -418,7 +418,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ca5085e35ae8f4381aa0376a8b36a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  folCam: {fileID: 0}
 --- !u!1 &2867118379807057938
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,7 +510,7 @@ GameObject:
   - component: {fileID: 2867118379837632041}
   m_Layer: 9
   m_Name: Sky Camera
-  m_TagString: Untagged
+  m_TagString: Skybox Camera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -632,7 +631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c0772535f0ae54492abc4898e849b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  world: {fileID: 0}
 --- !u!1 &2867118380247459360
 GameObject:
   m_ObjectHideFlags: 0

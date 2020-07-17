@@ -5,10 +5,10 @@ using UnityEngine;
 public class TestPortalCamera : MonoBehaviour
 {
     public Transform universeOffset;
-    public Camera playerCamera;
-    public Camera skyCamera;
-    public Transform player;
-    public Transform everything;
+    private Camera playerCamera;
+    private Camera skyCamera;
+    private Transform player;
+    private Transform everything;
     Camera mySkyCamera;
 
     RenderTexture rt;
@@ -20,14 +20,20 @@ public class TestPortalCamera : MonoBehaviour
     Camera myCamera;
     MeshRenderer myMesh;
 
-    public bool hasPlayer = false;
+    private bool hasPlayer = false;
 
-    public bool active = false;
-    public bool preSideActive = false;
+    private bool active = true;
+    private bool preSideActive = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        everything = GameObject.FindGameObjectWithTag("Multiverse").transform;
+        skyCamera = GameObject.FindGameObjectWithTag("Skybox Camera").GetComponent<Camera>();
+        playerCamera = GameObject.FindGameObjectWithTag("Player Origin").GetComponentInChildren<Camera>();
+        player = GameObject.FindGameObjectWithTag("Player Origin").transform;
+
+
         rt = new RenderTexture(rtWidth, rtHeight, rtDepth, RenderTextureFormat.DefaultHDR);
         myCamera = GetComponentInChildren<Camera>();
         myMesh = GetComponentInChildren<MeshRenderer>();
