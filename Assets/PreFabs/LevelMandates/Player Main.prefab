@@ -779,7 +779,7 @@ MonoBehaviour:
   reverseStrafeAcc: 12.5
   jumpSpeed: 7
   jumpTimerMax: 0.4
-  gravAmmo: 58
+  gravAmmo: 0
   keys: 0
   doubleJumpEnabled: 1
   doubleJumpRatio: 1

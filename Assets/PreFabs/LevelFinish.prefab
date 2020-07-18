@@ -238,7 +238,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1144210106034068160}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -807,7 +807,7 @@ MeshRenderer:
   m_GameObject: {fileID: 3121192427151412590}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -1187,9 +1187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keys: 1
-  playerScript: {fileID: 0}
   warp7: {fileID: 3924514964634073606}
-  radius: 0
 --- !u!1 &3924514964171951420
 GameObject:
   m_ObjectHideFlags: 0
@@ -2423,7 +2421,7 @@ MeshRenderer:
   m_GameObject: {fileID: 7069315132662277268}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -2517,7 +2515,7 @@ MeshRenderer:
   m_GameObject: {fileID: 7796517726002599543}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1

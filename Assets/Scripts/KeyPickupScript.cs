@@ -8,6 +8,7 @@ public class KeyPickupScript : MonoBehaviour
     public float radius;
     private PlayerRigidBody play;
     public float speed;
+    public GameObject[] killList;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,10 @@ public class KeyPickupScript : MonoBehaviour
         if (Physics.CheckSphere(transform.position, radius, playerLayer))
         {
             play.AddKey();
+            foreach (GameObject o in killList)
+            {
+                Destroy(o);
+            }
             Destroy(gameObject);
         }
     }

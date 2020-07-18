@@ -7,6 +7,7 @@ public class GravityPickupLogic : MonoBehaviour
     public LayerMask playerLayer;
     public float radius;
     private PlayerRigidBody play;
+    public GameObject[] killList;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,11 @@ public class GravityPickupLogic : MonoBehaviour
         if (Physics.CheckSphere(transform.position, radius, playerLayer)) 
         {
             play.AddAmmo();
+            foreach (GameObject o in killList) 
+            {
+                Destroy(o);
+            }
+
             Destroy(gameObject);
         }
     }
