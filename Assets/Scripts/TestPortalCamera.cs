@@ -62,7 +62,12 @@ public class TestPortalCamera : MonoBehaviour
 
     void Update()
     {
-
+        if (rt.IsCreated() && mySkyCamera.targetTexture != rt)
+        {
+            mySkyCamera.targetTexture = rt;
+            myCamera.targetTexture = rt;
+            myMesh.material.SetTexture("_MainTex", rt);
+        }
     }
 
     void LateUpdate()
