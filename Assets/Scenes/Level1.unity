@@ -485,10 +485,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3021547626431407813, guid: e0824ad9f4a73004598f03dd54d0d302,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5687700521504305302, guid: e0824ad9f4a73004598f03dd54d0d302,
+        type: 3}
+      propertyPath: y
+      value: 0.654
+      objectReference: {fileID: 0}
+    - target: {fileID: 5687700521504305302, guid: e0824ad9f4a73004598f03dd54d0d302,
+        type: 3}
+      propertyPath: offset.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5687700521504305303, guid: e0824ad9f4a73004598f03dd54d0d302,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5687700521504305303, guid: e0824ad9f4a73004598f03dd54d0d302,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.654
+      objectReference: {fileID: 0}
+    - target: {fileID: 5687700521504305303, guid: e0824ad9f4a73004598f03dd54d0d302,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5687700521643188180, guid: e0824ad9f4a73004598f03dd54d0d302,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 5687700521754385499, guid: e0824ad9f4a73004598f03dd54d0d302,
         type: 3}
       propertyPath: gravAmmo
-      value: 19
+      value: 3279
       objectReference: {fileID: 0}
     - target: {fileID: 5687700521899940913, guid: e0824ad9f4a73004598f03dd54d0d302,
         type: 3}
@@ -549,6 +584,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592431815445224076, guid: e0824ad9f4a73004598f03dd54d0d302,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592431815445224076, guid: e0824ad9f4a73004598f03dd54d0d302,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592431815445224076, guid: e0824ad9f4a73004598f03dd54d0d302,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0824ad9f4a73004598f03dd54d0d302, type: 3}
